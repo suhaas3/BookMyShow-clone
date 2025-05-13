@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BookMyShow</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="./general.css">
+<link rel="stylesheet" href="./nav-bar.css">
+<link rel="stylesheet" href="./header.css">
+<link rel="stylesheet" href="./scroll-section.css">
+<link rel="stylesheet" href="./section-css.css">
+<link rel="stylesheet" href="./events.css">
+<link rel="stylesheet" href="./trend-search.css">
+<link rel="stylesheet" href="./final.css">
+<link rel="stylesheet" href="./final2.css">
+<link rel="stylesheet" href="./footer-up.css">
+<link rel="stylesheet" href="./footer.css">
+
+<body>
+  <nav class="nav-bar-container">
+    <div class="nav-bar">
+      <div class="left-section">
+        <img class="nav-img" src="https://charan11w.github.io/BookMyShow-Clone/images/bshow.svg">
+      </div>
+      <div class="middle-section">
+        <input class="input-text" type="text" placeholder="Search for Movies,Events,Plays,Sports and Activities">
+        <button class="search-button">
+          🔍Search
+        </button>
+      </div>
+      <div class="right-section">
+        <h3 class="loction">Bengaluru</h3>
+        <button class="sign-in-button">Sign in</button>
+        <img class="hamburger-menu" src="./images/hamburger-menu.svg">
+      </div>
+    </div>
+  </nav>
+  <header class="head-container">
+    <div class="head-first-section">
+      <ul type="none" class="unordered-lists">
+        <li class="first-list">Movies</li>
+        <li class="first-list">Stream</li>
+        <li class="first-list">Events</li>
+        <li class="first-list">Plays</li>
+        <li class="first-list">Sports</li>
+        <li class="first-list">Activites</li>
+      </ul>
+    </div>
+    <div class="head-second-section">
+      <ul type="none" class="unordered-lists">
+        <li class="first-list">ListYourShow</li>
+        <li class="first-list">Corporates</li>
+        <li class="first-list">Offers</li>
+        <li class="first-list">GiftCards</li>
+      </ul>
+    </div>
+
+  </header>
+  <div class="section-scroll">
+    <marquee class="scroll-section" scrollamount="25">
+      <img class="img-mar" src="./images/s1.avif" alt="error">
+      <img class="img-mar" src="./images/s2.avif" alt="error">
+      <img class="img-mar" src="./images/s3.avif" alt="error">
+    </marquee>
+  </div>
+  <section>
+    <h2 class="rcd-heading">Recommended movies</h2>
+    <div class="container container-flex">
+      <div id="myMoviesList" class="row">
+
+      </div>
+    </div>
+    <aside>
+      <img class="aside-img"
+        src="https://assets-in.bmscdn.com/discovery-catalog/collections/tr:w-1440,h-120/stream-leadin-web-collection-202210241242.png"
+        alt="error">
+    </aside>
+  </section>
+  <main>
+    <h2 class="rcd-heading2">The Best Of Live Events</h2>
+    <div class="container main-container-flex">
+      <div id="best-events" class="row">
+      </div>
+  </main>
+  </div>
+  <div class="premium-img-container">
+    <img class="premium-img" src="./images/premiere-banner.jpeg">
+    <h2 class="rcd-heading3">Premiures</h2>
+    <h3 class="rcd-heading4">brand new releases everyday</h3>
+    <div class="container">
+      <div id="premiere-movies" class="row"></div>
+    </div>
+  </div>
+  <div class="container-trend">
+    <h2 class="rcd-heading">Trending Searches Right Now</h2>
+    <div class="container trend-search">
+      <div class="search-box">
+        <div class="name-search">Vidaamuyarchi</div>
+        <div class="movie-search">Movies</div>
+      </div>
+      <div class="search-box">
+        <div class="name-search">Deva</div>
+        <div class="movie-search">Movies</div>
+      </div>
+      <div class="search-box">
+        <div class="name-search">Intersteller</div>
+        <div class="movie-search">Movies</div>
+      </div>
+      <div class="search-box">
+        <div class="name-search">Marco</div>
+        <div class="movie-search">Movies</div>
+      </div>
+      <div class="search-box">
+        <div class="name-search">Ironman</div>
+        <div class="movie-search">Movies</div>
+      </div>
+    </div>
+    <div class="container trend-search">
+      <div class="search-box">
+        <div class="name-search">Ed Sheeran +-=÷x 2025 India Tour in BENGALURU</div>
+        <div class="movie-search">Movies</div>
+      </div>
+      <div class="search-box">
+        <div class="name-search">Nodidavaru Enanthare</div>
+        <div class="movie-search">Movies</div>
+      </div>
+      <div class="search-box">
+        <div class="name-search">chhava</div>
+        <div class="movie-search">Movies</div>
+      </div>
+      <div class="search-box">
+        <div class="name-search">Begur colony</div>
+        <div class="movie-search">Movies</div>
+      </div>
+    </div>
+  </div>
+  <div class="final-section">
+    <div class="final-left-section">
+      <img class="final-img" src="https://charan11w.github.io/BookMyShow-Clone/images/footer.svg" alt="error">
+      <h4 class="final-heading">List your Show</h4>
+      <p class="final-para">Got a show, event, activity or a great experience? Partner with us & get listed on
+        BookMyShow</p>
+    </div>
+
+    <div class="final-right-section">
+      <button>Contact today!</button>
+    </div>
+  </div>
+  <div class="final-section2">
+    <div class="left-final-section">
+      <img class="left-final-section-img" src="https://charan11w.github.io/BookMyShow-Clone/images/c.png" alt="error">
+      <h5 class="available">24/7 CUSTOMER CARE</h5>
+    </div>
+    <div class="middle-final-section">
+      <img class="middle-final-section-img" src="https://charan11w.github.io/BookMyShow-Clone/images/tickets.png"
+        alt="error">
+      <h5 class="booking-time">RESEND BOOKING CONFIRMATION</h5>
+    </div>
+    <div class="right-final-section">
+      <img class="right-final-section-img" src="https://charan11w.github.io/BookMyShow-Clone/images/email.png"
+        alt="error">
+      <h5 class="message">SUBSCRIBE TO THE NEWSLETTER</h5>
+    </div>
+  </div>
+  <div class="footer-up">
+    <h6>MOVIES NOW SHOWING IN BENGALURU</h6>
+    <p>Deva | Intersteller | Sankranthiki vastunam | Jai balayya | Mufasa:The Lion King | The Lion King | Big Hero 6</p>
+    <h6>UPCOMING MOVIES IN BENGALURU</h6>
+    <p>Premier League 2025 (Arsenal vs Manchester City) | 2020 Delhi | Sanghavi & Sons | Pattudala | Vidaamuyarchi |
+      Hoshiar Singh (Apna Arastu) | My Melbourne | Sanatani - Karma Hi Dharma |</p>
+    <h6>MOVIE BY GENRE</h6>
+    <p>Drama movies | Action movies | Thriller movies | Comedy movies | Romantic movies | Adventure movies | Crime
+      movies | Sci-fi Movies | Horror movies | Animation movies</p>
+    <h6>MOVIES BY LANGUAGE</h6>
+    <p>Movies in Englich | Movies in Kannada | Movies in Hindi | Movies in Hindi |</p>
+    <h6>Events in top cities</h6>
+    <p>Events in Mumbai | Events in Bengaluru | Events in Delhi | Events in Tamilnadu | Events in Jammu | Events in
+      kolkata</p>
+  </div>
+  <footer>
+    <div class="line-show">
+      <div class="line">
+        <hr>
+      </div>
+      <div class="img-footer">
+        <img class="footer-img" src="./images/bookmyshow-logo.png" alt="error">
+      </div>
+      <div class="line">
+        <hr>
+      </div>
+    </div>
+    <div class="logos">
+      <img src="https://charan11w.github.io/BookMyShow-Clone/images/yt.jpg">
+      <img src="https://charan11w.github.io/BookMyShow-Clone/images/in.webp">
+      <img src="https://charan11w.github.io/BookMyShow-Clone/images/x.jpeg">
+      <img src="https://charan11w.github.io/BookMyShow-Clone/images/insta.avif">
+      <img src="https://charan11w.github.io/BookMyShow-Clone/images/facebook.png">
+    </div>
+    <div class="footer-para">
+      <p class="para1">Copyright 2025 @ © Bigtree Entertainment Pvt. Ltd. All Rights Reserved.</p>
+      <p class="para2">The content and images used on this site are copyright protected and copyrights vests with the respective owners. The usage of the content and images on this website is intended to promote the works and no endorsement of the artist shall be implied. Unauthorized use is prohibited and punishable by law.</p>
+    </div>
+  </footer>
+  <script src="./moviesList.js"></script>
+  <script src="./events.js"></script>
+  <script src="./premiures.js"></script>
+</body>
+
+</html>

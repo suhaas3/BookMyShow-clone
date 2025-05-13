@@ -1,0 +1,42 @@
+.final-section {
+  display: flex;
+  background-color: rgb(49,48,53);
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+} 
+.final-left-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.final-img {
+  margin-left: 100px;
+  padding-bottom: 10px;
+}
+.final-heading {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.final-para {
+  font-family: arial;
+  font-size: 16px;
+  color: white;
+}
+.final-right-section {
+  display: flex;
+  align-items: center;
+}
+.final-right-section button {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 100px;
+}

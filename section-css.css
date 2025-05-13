@@ -1,0 +1,38 @@
+.rcd-heading {
+  margin-left: 110px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.s-img {
+  vertical-align: top;
+  width: 216px;
+  height: 378px;
+  border-radius: 10px;
+}
+.card-size {
+  margin: 0;
+  border: none;
+  width: 216px;
+  height: 550px;
+}
+.book-button {
+  background-color: rgb(47, 140, 223);
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+.card-genre {
+  white-space: nowrap;
+}
+.title-space {
+  white-space: nowrap;
+}
+.aside-img {
+  width: 1300px;
+  margin-left: 95px;
+}
+/* .container-flex {
+  display: flex;
+  justify-content: space-between;
+} */

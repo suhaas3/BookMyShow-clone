@@ -1,0 +1,32 @@
+.final-section2 {
+  background-color: rgb(64, 64, 67);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.final-section2 img {
+  width: 50px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+.final-section2 h5 {
+  font-family: arial;
+  font-size: 14px;
+  color: white;
+} 
+.left-final-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.middle-final-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-final-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

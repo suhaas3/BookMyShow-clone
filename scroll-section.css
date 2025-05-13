@@ -1,0 +1,17 @@
+
+.scroll-section {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px;
+    background-color: rgb(227, 227, 227);
+}
+.scroll-section img {
+    padding: 10px;
+    border-radius: 20px;
+    flex-shrink: 0;
+    animation: scroll 10s linear infinite;
+}
+
+
+
